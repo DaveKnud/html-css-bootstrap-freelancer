@@ -3,16 +3,15 @@
     border: 2px solid violet;
 }
 
-.header-container{
-    width: 80%;
-    margin: 0 auto;
+header{
+    background-color:#2C3E50;
+    min-height: 100px;
 }
 
-.item.header{
-    height: 100px;
-    display: flex;
-    align-items: center;
+.contenitore{
+    min-height: 100px;
 }
+
 
 /* DEBUG */
 section{
