@@ -10,8 +10,21 @@ header{
 
 .contenitore{
     min-height: 100px;
+    line-height: 100px;
+    }
+
+.header-smartphone{
+    display: none;
 }
 
+/* MEDIA QUERY */
+@media all and(max-width:546px) {
+    .header-smartphone{
+        display: flex;
+    }
+
+    
+}
 
 /* DEBUG */
 section{
