@@ -34,12 +34,31 @@ header{
     margin-top: 4%;
 }
 
+.jumbotron h4{
+    margin-bottom: 10%;
+}
+
+/* PORTFOLIO */
+.portfolio{
+    background-color:white
+}
+
+.img-portfolio{
+    width: 100%;
+}
+
+.img-portfolio img{
+    max-width: 100%;
+    border-radius: 25px;
+}
+
 /* bottom footer */
 .bottom-footer{
     min-height: 100px;
     background-color:#2C3E50;
 
 }
+
 
 /* MEDIA QUERY */
 @media all and(max-width:546px) {
