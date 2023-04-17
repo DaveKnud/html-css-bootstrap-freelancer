@@ -1,20 +1,19 @@
-[class*="col"] {
-    background-color: aqua;
-    border: 2px solid violet;
-}
+
 
 header{
     background-color:#2C3E50;
     min-height: 100px;
 }
 
-.contenitore{
-    min-height: 100px;
-    line-height: 100px;
-    }
 
 .header-smartphone{
     display: none;
+}
+
+.logo{
+    font-size: 30px;
+    font-weight: 700;
+
 }
 
 /* MEDIA QUERY */
@@ -23,13 +22,24 @@ header{
         display: flex;
     }
 
-    
+    .nav{
+        display: none;
+    }
+
 }
 
 /* DEBUG */
+[class*="col"] {
+    background-color: aqua;
+    border: 2px solid violet;
+    min-height: 200px;
+}
+
+
 section{
-    height: 400px;
+    min-height: 400px;
     width: 100%;
     background-color:bisque;
     border:1px solid black;
 }
+
