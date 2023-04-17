@@ -16,6 +16,31 @@ header{
 
 }
 
+/* JUMBO */
+.jumbotron{
+    background-color:#1ABC9C;
+}
+
+.img-jumbo{
+   width: 100%;
+}
+
+.img-jumbo img{
+    max-width: 50%;
+    margin-top: 5%;
+}
+
+.text-jumbo{
+    margin-top: 4%;
+}
+
+/* bottom footer */
+.bottom-footer{
+    min-height: 100px;
+    background-color:#2C3E50;
+
+}
+
 /* MEDIA QUERY */
 @media all and(max-width:546px) {
     .header-smartphone{
