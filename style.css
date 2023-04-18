@@ -34,13 +34,18 @@ header{
     margin-top: 4%;
 }
 
+.titolo-jumbotron{
+    font-size: 350%;
+}
+
 .jumbotron h4{
     margin-bottom: 10%;
 }
 
 /* PORTFOLIO */
 .portfolio{
-    background-color:white
+    background-color:white;
+    margin-bottom: 5%;
 }
 
 .img-portfolio{
@@ -52,12 +57,42 @@ header{
     border-radius: 25px;
 }
 
+/* ABOUTUT */
+.about{
+    background-color:#1ABC9C;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+/* CONTACT ME */
+.contact-me{
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+
+/* TOP FOOTER */
+.top-footer{
+    background-color:#3A546D;
+    min-height: 200px;
+}
 /* bottom footer */
 .bottom-footer{
     min-height: 100px;
     background-color:#2C3E50;
+}
+
+.input input,
+textarea{
+width: 100%;
+background-color: transparent;
+background-color: transparent;
+    border: 0px ;
+    border-bottom: 1px solid #000;
 
 }
+
+
 
 
 /* MEDIA QUERY */
@@ -73,10 +108,10 @@ header{
 }
 
 /* DEBUG */
-[class*="col"] {
+
+/* [class*="col"] {
     background-color: aqua;
     border: 2px solid violet;
-    min-height: 200px;
 }
 
 
@@ -86,4 +121,4 @@ section{
     background-color:bisque;
     border:1px solid black;
 }
-
+ */
